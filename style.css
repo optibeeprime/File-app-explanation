@@ -8,7 +8,25 @@ body {
     align-items: center; /* 縦方向中央揃え */
     min-height: 100vh;
 }
+nav {
+    margin-top: 10px;
+    text-align: center;
+}
 
+.tab {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #d4af37;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.tab:hover {
+    background-color: #444;
+}
 header {
     background-color: #000;
     padding: 20px;
