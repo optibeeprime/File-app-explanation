@@ -3,11 +3,14 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
     background-color: #181818;
     color: #f5f5f5;
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
 }
 
 header {
     background-color: #1a1a1a;
     padding: 10px 20px;
+    width: 100%; /* Ensure the header takes full width */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,16 +34,19 @@ nav a {
     text-decoration: none;
     color: #d4af37;
     font-weight: bold;
+    padding: 5px 10px; /* Add some padding for aesthetics */
+    border-radius: 3px;
 }
 
 nav a:hover {
-    background-color: #1a1a1a;
+    background-color: #444; /* Added a more visible hover effect */
 }
 
 main {
     padding: 20px;
     max-width: 800px;
     width: 100%;
+    box-sizing: border-box; /* Include padding/border in the element's total width and height */
 }
 
 h1 {
